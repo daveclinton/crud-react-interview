@@ -23,15 +23,17 @@ function App() {
                   React MERN Stack App
                 </Link>
               </Navbar.Brand>
+            </Container>
+            <Container>
               <Nav className="justify-content-end">
                 <Nav>
                   <Link to={"/create-student"} className="nav-link">
-                    Add Project REF
+                    Add Project
                   </Link>
                 </Nav>
                 <Nav>
                   <Link to={"/student-list"} className="nav-link">
-                    Add Project Name
+                    Project Name
                   </Link>
                 </Nav>
               </Nav>
